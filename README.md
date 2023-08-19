@@ -9,7 +9,8 @@ My job is to process the created tree so that the command represented by the tre
 
 My code in the file executor.c
 
-## Basic Struturecs
+
+## Basic Structures
 The command tree is a binary tree where a C structure represents a tree node (see the file command.h).
 Each node has a (enum) type. 
 I implemented commands associated with the NONE, AND, PIPE and SUBSHELL nodes. 
