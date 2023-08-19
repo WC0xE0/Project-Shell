@@ -1,13 +1,15 @@
 # PROJECT SHELL
 
-I. Introduction
+## Introduction
 
 This project is to implement a simplified shell. 
 
 What's been provided is a command parser that reads a command provided at the command prompt and creates a tree.
 My job is to process the created tree so that the command represented by the tree is executed. 
-My code is in the file executor.c
 
+My code in the file executor.c
+
+## Basic Struturecs
 The command tree is a binary tree where a C structure represents a tree node (see the file command.h).
 Each node has a (enum) type. 
 I implemented commands associated with the NONE, AND, PIPE and SUBSHELL nodes. 
