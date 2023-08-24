@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is to implement a shell. My code in the file executor.c
+This project is to implement a shell. My code is in the file executor.c
 
 What's been provided is a command parser that reads a command provided at the command prompt and creates a tree.
 My job is to process the created tree so that the command represented by the tree is executed. 
